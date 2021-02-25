@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'wolas:admin-lte',
+  name: 'dogunbound:admin-lte',
   version: '0.0.6',
   summary: 'AdminLTE dashboard theme',
   git: 'https://github.com/wolasss/meteor-admin-lte',
@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.1.0.2');
+  api.versionsFrom('2.0');
 
   api.use([
     'templating',
